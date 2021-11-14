@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap-libs/pancake-swap-core",
+  "name": "@flash-swap/flash-swap-core",
   "description": "🎛 Core contracts for the pancake protocol",
   "version": "0.1.0",
   "homepage": "https://pancakeswap.finance",
@@ -8,7 +8,8 @@
     "url": "https://github.com/pancakeswap/pancake-swap-core.git"
   },
   "publishConfig": {
-    "registry": "http://registry.npmjs.org"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "files": [
     "contracts",
